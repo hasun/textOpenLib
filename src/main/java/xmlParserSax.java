@@ -16,7 +16,7 @@ public class xmlParserSax {
         try {
             SAXParser saxParser = saxParserFactory.newSAXParser();
             myHandler handler = new myHandler();
-            saxParser.parse(new File("/home/hasun/다운로드/kowiki-20170420-pages-articles.xml"), handler);
+            saxParser.parse(new File("C:\\Users\\SC-007\\saltlux\\자연어처리 교육자료\\3주차(자연어처리검색)\\SolrKorman\\data\\kowiki-20170420-pages-articles.xml"), handler);
             //Get Employees list
             List<wikiModel> wikiList = handler.getWikiList();
             //print employee information

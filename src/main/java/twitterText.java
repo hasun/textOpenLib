@@ -13,7 +13,7 @@ import com.twitter.penguin.korean.tokenizer.KoreanTokenizer;
 
 public class twitterText {
     public static void main(String[] args) {
-        String text = "한국어를 처리하는 예시입니닼ㅋㅋㅋㅋㅋ #한국어";
+        String text = "고객님 본인 맞으십니까";
 
         // Normalize
         CharSequence normalized = TwitterKoreanProcessorJava.normalize(text);
